@@ -16,7 +16,7 @@ This is a sample code for crud screen , where one can add ,change and delete a u
 
 
  Please have a look into 
-https://github.com/Akhila610/curd_node_postgresql  , I done this backend in node js . 
+https://github.com/Akhila610/curd_node_postgresql  , This code in Node JS  . 
 
 
  
