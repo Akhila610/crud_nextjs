@@ -7,6 +7,7 @@ import { insertAndFetch } from '../utils/api'; // Import the API function
 import { useUser } from '../context/UserContext';
 import Layout from '../components/Layout';
 import { API_BASE_URL } from '../api_baseurl';
+import LogoutButton from '../components/LogoutButton';
 
 
 function UserManagement() {
@@ -81,6 +82,7 @@ const { loginuser } = useUser();
   return (
     <Layout>
     <div>
+    <LogoutButton/>
       <h1 className ="h1" style={{marginLeft:'500px'}}>User Management</h1>
       <UserForm selectedUser={selectedUser} addUser={addUser} editUser={editUser} />
       <UserTable1 users={users} setSelectedUser={setSelectedUser} deleteUser={deleteUser} />
